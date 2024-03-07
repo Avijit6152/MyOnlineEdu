@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Notice Board</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .notice {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .notice:last-child {
+    border-bottom: none;
+  }
+
+  .notice h2 {
+    color: #333;
+  }
+
+  .notice p {
+    line-height: 1.6;
+  }
+
+  .notice-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .notice-details span {
+    margin-right: 10px;
+  }
+
+  .notice-details a {
+    color: #4caf50;
+    text-decoration: none;
+  }
+
+  .notice-details a:hover {
+    text-decoration: underline;
+  }
+
+  .important {
+    color: red;
+    font-weight: bold;
+  }
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>Notice Board</h1>
+</div>
+<div class="container">
+  <div class="notice">
+    <h2>Important Notice</h2>
+    <p class="important">All students are required to attend the meeting in the auditorium tomorrow at 9:00 AM.</p>
+    <div class="notice-details">
+      <span>Posted by: Administrator</span>
+      <span>Date: March 7, 2024</span>
+    </div>
+  </div>
+  <div class="notice">
+    <h2>Exam Schedule</h2>
+    <p>The final exam schedule has been updated. Please check the school website for details.</p>
+    <div class="notice-details">
+      <span>Posted by: Examination Department</span>
+      <span>Date: March 5, 2024</span>
+    </div>
+  </div>
+  <div class="notice">
+    <h2>Library Closure</h2>
+    <p>The library will be closed for maintenance from March 10th to March 15th. Sorry for the inconvenience.</p>
+    <div class="notice-details">
+      <span>Posted by: Librarian</span>
+      <span>Date: March 2, 2024</span>
+    </div>
+  </div>
+</div>
+</body>
+</html>
